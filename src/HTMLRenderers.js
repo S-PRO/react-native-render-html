@@ -88,7 +88,7 @@ export function ul(htmlAttribs, children, convertedCSSStyles, passProps = {}) {
                   height: baseFontSize / 2.8,
                   marginTop: baseFontSize / 2,
                   borderRadius: baseFontSize / 2.8,
-                  backgroundColor: 'red'
+                  backgroundColor: baseFontStyle.color ? baseFontStyle.color : 'black'
                 }}
               />
             );
